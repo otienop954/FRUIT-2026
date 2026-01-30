@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Mango",
+    "price": "KES 150 / kg",
+    "image": "https://images.pexels.com/photos/2294471/pexels-photo-2294471.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Avocado",
+    "price": "KES 120 / kg",
+    "image": "https://images.pexels.com/photos/557659/pexels-photo-557659.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Oranges",
+    "price": "KES 100 / kg",
+    "image": "https://images.pexels.com/photos/161559/background-bitter-breakfast-bright-161559.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Pineapple",
+    "price": "KES 180 each",
+    "image": "https://images.pexels.com/photos/947879/pexels-photo-947879.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Apples",
+    "price": "KES 200 / kg",
+    "image": "https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg"
+  }
+  
+]

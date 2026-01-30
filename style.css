@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #9e7188;
+}
+
+/* Fixed Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #2e8b57;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+}
+
+.top-bar {
+    background: #1f6f43;
+    padding: 5px 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    padding: 15px;
+}
+
+/* Main Container */
+.container {
+    margin-top: 140px;
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #c3cec8;
+}
+
+/* Fruit Grid */
+.fruit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+.buy-btn {
+  margin-top: 10px;
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background: darkgreen;
+}
+
+
+/* Fruit Card */
+.fruit-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.fruit-card:hover {
+    transform: scale(1.05);
+}
+
+.fruit-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Price */
+.price {
+    background: #2e8b57;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    text-align: center;
+    background: #333;
+    color: white;
+}
